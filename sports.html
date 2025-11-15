@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        *{
+           font-family:sans-serif;
+        }
+        table,th,td{
+            border:3px solid black;
+            border-collapse:collapse;
+            padding:20px 50px; 
+            text-align:center;
+        }
+        caption{
+            font-size:30px;
+        }
+        table{
+            margin:auto;
+        }
+        th,.lightgrey{
+            background-color:rgb(227, 226, 225);
+        }
+        .lightblue{
+            background-color:rgb(184, 200, 222);
+        }
+        .lightgreen{
+            background-color:rgb(171, 216, 222);
+        }
+        .darkgreen{
+            background-color:rgb(27, 153, 179);
+            color:white;
+        }
+        .darkblue{
+            background-color:rgb(2, 70, 153);
+            color:white;
+        }
+        .darkgrey{
+            background-color:rgb(181, 181, 181);
+        }
+        #i1{
+            height: 50px;
+        }
+        #i2{
+            height: 40px;
+        }
+        img{
+            padding: 0px 15px;
+            display:inline-block;
+            flex-direction: row-reverse;
+        }
+        p{
+            width:200px;
+            
+            bottom: 15px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+<div style="display: flex;justify-content: center;">
+<div style="display:inline-block; width: 2000px;">
+<table>
+    <caption>
+        <b>SPORTS CALENDAR</b><br>
+        <img id="i1" src="S-VYASA Logo.png" alt="svyasa">
+        <img id="i2" src="NST-Logo.jpg" alt="nst">
+        </caption>
+    <thead>
+        <th>Days</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="5" class="lightgrey"><b>Sports</b></td>
+            <td class="darkblue">Footbal Turf</td>
+            <td class="darkblue">Footbal Turf</td>
+            <td class="darkblue">Footbal Turf</td>
+            <td class="darkblue">Footbal Turf</td>
+            <td class="darkblue">Footbal Turf</td>
+            <td class="darkblue">Footbal Turf</td>
+            <td rowspan="5"></td>
+</tr>
+        <tr>
+            <td class="darkblue">Basketball Court</td>
+            <td class="darkblue">Basketball Court</td>
+            <td class="darkblue">Basketball Court</td>
+            <td class="darkblue">Basketball Court</td>
+            <td class="darkblue">Basketball Court</td>
+            <td class="darkblue">Basketball Court</td>
+</tr>
+        <tr>
+            <td class="darkblue">Volleyball Court</td>
+            <td class="darkblue">Volleyball Court</td>
+            <td class="darkblue">Volleyball Court</td>
+            <td class="darkblue">Volleyball Court</td>
+            <td class="darkblue">Volleyball Court</td>
+            <td class="darkblue">Volleyball Court</td>
+</tr>
+        <tr>
+            <td class="darkblue">Box Cricket</td>
+            <td class="darkblue">Box Cricket</td>
+            <td class="darkblue">Box Cricket</td>
+            <td class="darkblue">Box Cricket</td>
+            <td class="darkblue">Box Cricket</td>
+            <td class="darkblue">Box Cricket</td>
+</tr>
+        <tr>
+            <td class="darkblue">Volleyball/Throwball Court</td>
+            <td class="darkblue">Volleyball/Throwball Court</td>
+            <td class="darkblue">Volleyball/Throwball Court</td>
+            <td class="darkblue">Volleyball/Throwball Court</td>
+            <td class="darkblue">Volleyball/Throwball Court</td>
+            <td class="darkblue">Volleyball/Throwball Court</td>
+</tr>
+        <tr>
+            <td rowspan="2" class="darkgrey"><b>Timings for above sports</b></td>
+            <td colspan="5" class="lightblue"><b>Slot 1: 7:00 - 9:00 AM</b></td>
+            <td rowspan="2" class="lightblue"><b>9:00 AM - 3:00 PM</b></td>
+            <td rowspan="2"></td>
+</tr>
+        <tr>
+            <td colspan="5" class="lightblue"><b>Slot 2: 4:30 - 6:30 AM</b></td>
+        </tr>
+        <tr>
+
+            <td class="lightgrey"><b>Sports</b></td>
+            <td></td>
+            <td class="darkblue">Cricket Ground</td>
+            <td class="darkblue">Cricket Ground</td>
+            <td class="darkblue">Cricket Ground</td>
+            <td></td>
+            <td class="darkgreen">Badminton</td>
+            <td class="darkgreen">Badminton</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="darkgrey"><b>Timings for above sports</b></td>
+            <td></td>
+            <td class="lightblue" colspan="3"><b>4:30 - 6:30 PM</b></td>
+            <td></td>
+            <td colspan="2" class="lightgreen"><b>Slot 1: 4:00 - 5:00 PM</b></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td colspan="2" class="lightgreen"><b>Slot 1: 6:00 - 7:00 PM</b></td>
+        </tr>
+    </tbody>
+</table>
+<div style="display: flex;">
+                <div>
+                    <ul type="disc" style="">Please Note:
+                        <li style="width:500px;;left:30px">Badminton timings maybe subject to change based on availability.</li>
+                        <li style="width:500px;;left:30px">Kindly follow the above calendar, until further notice.</li>
+                    </ul>
+                </div>
+                <div style="display:flex; position:relative; top:20px;left:500px">
+                    <div style="background-color: rgb(2, 70, 153); height:40px; width: 250px;"></div>
+                    <div style=" position:relative; bottom:15px; left:10px"><p><b>Location:Sprintz Area,<br>Sattva Global Tech Park</b></p></div>
+                    <div style="background-color: rgb(27, 153, 179); height:40px; width: 250px;"></div>
+                    <div style=" position:relative; bottom:15px; left:10px"><p><b>Location:The Big Box,<br>Tech Park Back Gate</b></p></div>
+                </div>
+</div>
+</div>
+</div>
+</body>
+</html>
